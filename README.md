@@ -101,3 +101,9 @@ The project combines:
 ## Important limitation
 
 This is a portfolio case study, not investment advice. The results are conditional on explicit 24-month assumptions and rapidly changing company disclosures, prices, financing structures, and Bitcoin network conditions.
+
+## Related portfolio work
+
+- [Five-Stage AI-Augmented Analyst Workflow](https://github.com/markjamesc/ai-augmented-analyst-workflow)
+- [FulfillIQ — MySQL and R Decision-Support Case Study](https://github.com/markjamesc/fulfilliq)
+- [R Workflow Engine](https://github.com/markjamesc/r-workflow-engine)
