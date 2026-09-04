@@ -62,21 +62,23 @@ The final decision is therefore to choose the proxy opportunity selectively rath
 
 ## Model validation
 
+These are internal consistency and execution checks recorded in the committed workbook and notebook. They do not constitute external validation of future investment outcomes.
+
 - 18 of 18 company-scenario observations rebuilt
 - 0 missing target prices
 - 0 detected formula errors
 - 12 of 12 workbook execution assertions passed
-- 6 of 6 independent notebook checks passed
+- 6 of 6 notebook QA checks passed
 
 ## Repository contents
 
 | File | Purpose |
 |---|---|
-| `AI_Augmented_Bitcoin_Proxy_Analysis_Report.pdf` | Detailed employer-facing report covering all five stages |
-| `AI_Augmented_Bitcoin_Proxy_Analysis_Presentation.pptx` | Concise 15-slide presentation for interviews and portfolio review |
-| `Bitcoin_Proxy_Stage5_Input.xlsx` | Normalized evidence, assumptions, scenario outputs, sources, gaps, and checks |
-| `Stage4_Model_Rebuild.ipynb` | Reproducible calculations and independent validation checks |
-| `AI_Augmented_Bitcoin_Proxy_Analysis_Report.docx` | Editable report source |
+| [Report PDF](deliverables/AI_Augmented_Bitcoin_Proxy_Analysis_Report.pdf) | Detailed employer-facing report covering all five stages |
+| [Presentation](deliverables/AI_Augmented_Bitcoin_Proxy_Analysis_Presentation.pptx) | Concise 15-slide presentation for interviews and portfolio review |
+| [Model workbook](model/Bitcoin_Proxy_Stage5_Input.xlsx) | Normalized evidence, assumptions, scenario outputs, sources, gaps, and checks |
+| [Executed notebook](model/Stage4_Model_Rebuild.ipynb) | Model rebuild and six internal QA checks |
+| [Editable report](deliverables/AI_Augmented_Bitcoin_Proxy_Analysis_Report.docx) | Editable report source |
 
 ## Source architecture
 
@@ -93,7 +95,7 @@ The project combines:
 - Research synthesis and source normalization
 - Financial and scenario modeling
 - Diluted-share and capital-structure analysis
-- Reproducible validation
+- Notebook-based model validation
 - Risk-aware interpretation
 - Executive reporting and presentation design
 - AI-augmented analytical orchestration
