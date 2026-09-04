@@ -12,6 +12,8 @@ The analysis evaluates six public companies—MSTR, Metaplanet, Twenty One Capit
 
 The earlier project is preserved separately for comparison: [proxy-investing-btc-MSTR-MTPLF](https://github.com/markjamesc/proxy-investing-btc-MSTR-MTPLF).
 
+![Modeled excess return versus Bitcoin in the BTC +100% scenario](assets/bitcoin-proxy-excess-return-comparison.png)
+
 ## Five-stage analytical workflow
 
 1. **Start** — Define three real decisions: own BTC directly, own a proxy, or reject the proxy opportunity.
