@@ -1,5 +1,7 @@
 # AI-Augmented Bitcoin Proxy Analysis
 
+**Valuation date: August 25, 2026.** Frozen portfolio scenario analysis; company inputs and prices are not a live market feed.
+
 ## Project overview
 
 This project rebuilds a more code-heavy Bitcoin proxy analysis completed in June 2025 as a ChatGPT-centered, AI-augmented decision system.
@@ -44,23 +46,27 @@ Bitcoin anchor: **$78,511.23**.
 
 Only three of the six companies beat Bitcoin in all three modeled scenarios:
 
-| Rank | Company | Role | Stock return if BTC rises 100% | Excess return vs. BTC | Scenarios beating BTC |
+| Qualitative preference order | Company | Case-study role | Stock return if BTC rises 100% | Excess return vs. BTC | Scenarios beating BTC |
 |---:|---|---|---:|---:|---:|
-| 1 | MSTR | Best overall proxy | 128.4% | +28.4 pts | 3 / 3 |
-| 2 | Metaplanet | Risk-adjusted alternative | 124.9% | +24.9 pts | 3 / 3 |
-| 3 | American Bitcoin | Maximum convexity | 246.5% | +146.5 pts | 3 / 3 |
+| 1 | MSTR | Preferred overall in the case study | 128.4% | +28.4 pts | 3 / 3 |
+| 2 | Metaplanet | Alternative with different financing risks | 124.9% | +24.9 pts | 3 / 3 |
+| 3 | American Bitcoin | Highest modeled upside | 246.5% | +146.5 pts | 3 / 3 |
 | 4 | Twenty One Capital | Discount special situation | 93.9% | −6.1 pts | 0 / 3 |
 | 5 | CleanSpark | Diversified mining/HPC | 32.9% | −67.1 pts | 0 / 3 |
 | 6 | MARA | High-beta BTC trade | 56.8% | −43.2 pts | 0 / 3 |
 
 ## Interpretation
 
-- **MSTR** is the best overall choice when the objective is the highest credible probability of outperforming Bitcoin.
-- **Metaplanet** offers the strongest middle ground between valuation, leverage, and execution quality.
-- **American Bitcoin** has the greatest modeled upside, but also carries substantial ATM, dilution, mining, and execution risk.
-- **Twenty One Capital, CleanSpark, and MARA** may produce positive stock returns, but they fail the actual benchmark in the rebuilt model.
+The preference order above is the case study's qualitative judgment about financing, dilution, and execution risk. It is not a sort by modeled return, a statistical risk-adjusted ranking, or an estimated probability of outperforming Bitcoin.
 
-The final decision is therefore to choose the proxy opportunity selectively rather than treating every Bitcoin-sensitive equity as superior to direct BTC ownership.
+- **MSTR** is preferred overall in the original interpretation. That preference reflects the qualitative risk assessment rather than the largest scenario return.
+- **Metaplanet** is an alternative whose valuation, financing, and execution assumptions warrant separate assessment.
+- **American Bitcoin** has the greatest modeled upside, including +146.5 percentage points of excess return in the BTC +100% scenario. Its lower preference position reflects the interpretation's concerns about ATM issuance, dilution, mining, and execution; those concerns are not converted into probabilities by this model.
+- **Twenty One Capital, CleanSpark, and MARA** underperform the Bitcoin benchmark in each of the three modeled scenarios, even where their stock returns are positive.
+
+All three scenarios assume Bitcoin rises. Passing three of three cases establishes conditional model behavior, not a 100% success probability or robustness to flat or falling Bitcoin prices. The work supports a selective shortlist under its assumptions; it does not establish an optimal portfolio allocation.
+
+The report and presentation preserve the original case-study narrative. Read their preference language with the qualification above; this README clarification does not change the frozen inputs or modeled returns.
 
 ## Model validation
 
@@ -109,5 +115,5 @@ This is a portfolio case study, not investment advice. The results are condition
 ## Related portfolio work
 
 - [Five-Stage AI-Augmented Analyst Workflow](https://github.com/markjamesc/ai-augmented-analyst-workflow)
-- [FulfillIQ — MySQL and R Decision-Support Case Study](https://github.com/markjamesc/fulfilliq)
+- [FulfillIQ 2.0 — Independent SQL/R Validation Case Study](https://github.com/markjamesc/fulfilliq-2.0)
 - [R Workflow Engine](https://github.com/markjamesc/r-workflow-engine)
